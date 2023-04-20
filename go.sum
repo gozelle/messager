@@ -1,7 +1,17 @@
+github.com/gozelle/atomic v1.10.10 h1:mUc+GODLuon/L2lR/Ckzta1AK1ugq/AK3UIZFusKGb0=
+github.com/gozelle/atomic v1.10.10/go.mod h1:5rsc4dEjAakvLB68tnEc3pgV6C9RbC4pfUpv035T/t0=
 github.com/gozelle/fastjson v1.6.5 h1:WPTxms/7q0dMTrpShZcSFrlKVsBbKvYoiAjq/SZAZmg=
 github.com/gozelle/fastjson v1.6.5/go.mod h1:l5cq4UgbGCxPYv6KuzKWAjFiG0taminzA1oQB+VWg24=
+github.com/gozelle/isatty v0.0.17 h1:1ka2GcKL1hNwIHIl5JFHfHOAzl+vXRH4Jx3dlFa88nM=
+github.com/gozelle/isatty v0.0.17/go.mod h1:u77FICFTx4IXjAoAaYstj8NvStDRVhwe3NNZCKzXVGo=
+github.com/gozelle/logging v0.0.0-20230111081457-6f16f4dd5a46 h1:hV0LqMjLl6oDbp4qXvia9pplS95kQtfq92YHvDZFGww=
+github.com/gozelle/logging v0.0.0-20230111081457-6f16f4dd5a46/go.mod h1:uYLWg4Ida/VxwbumW4/N6HPAj/3ShN+2x2Kj2hAtD8U=
+github.com/gozelle/multierr v1.9.10 h1:EUU22u5Yx82/mQm55fH1WF6ztp0w4U+cZl9lCzuyUvE=
+github.com/gozelle/multierr v1.9.10/go.mod h1:4tC7qdet8CoxU9Q/Ha2bn5obpheqU7bTB9AENXwWzaI=
 github.com/gozelle/resty v0.0.0-20230420051036-2811f33ec45c h1:EPnSYgXXYYZObWt7xIVDo+tfXfZQsojIs1d9c1RcwJY=
 github.com/gozelle/resty v0.0.0-20230420051036-2811f33ec45c/go.mod h1:K82bTaUG5mobikkmREfBxS5PFDgeIaLCZcsPeD9XFRA=
+github.com/gozelle/zap v1.24.0 h1:UDH3SPadOSIf4PrAFVauvbzK8uwxS+HXAEQpxrtlhdA=
+github.com/gozelle/zap v1.24.0/go.mod h1:ou7R5ioHa0+Mr3Hw98o5Sa1tMYU5DEcX2LeYtrAikg0=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=
@@ -21,7 +31,9 @@ golang.org/x/sys v0.0.0-20201119102817-f84b799fce68/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.5.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.6.0 h1:MVltZSvRTcU2ljQOhs94SXPftV6DCNnZViHeQps87pQ=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
 golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod h1:jbD1KX2456YbFQfuXm/mYQcufACuNUgVhRMnK/tPxf8=

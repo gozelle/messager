@@ -1,17 +1,19 @@
 package dingrobot
 
 import (
+	"context"
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/gozelle/fastjson"
-	"github.com/gozelle/resty"
 	"log"
 	"net/url"
 	"strconv"
 	"time"
+
+	"github.com/gozelle/fastjson"
+	"github.com/gozelle/resty"
 )
 
 const (
@@ -52,9 +54,9 @@ func (p *Robot) sign() (timestamp int64, sign string) {
 	return
 }
 
-func (p *Robot) Request(title string, msg string) (err error) {
+func (p *Robot) Push(ctx context.Context, title, msg string) (err error) {
 	timestamp, sign := p.sign()
-	
+
 	address, err := url.Parse(p.webhook)
 	if err != nil {
 		log.Println(err)
