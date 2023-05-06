@@ -40,6 +40,10 @@ func main {
 }
 ```
 
+## 示例效果
+
+![](./example.png)
+
 ## 许可证
 
 该项目采用 MIT 许可证。详见 [LICENSE](./LICENSE) 文件。
