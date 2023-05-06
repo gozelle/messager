@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 	"time"
-
+	
 	"github.com/gozelle/logging"
 )
 
@@ -19,7 +19,7 @@ const (
 )
 
 type Notifier interface {
-	Successf(format string, a ...any)
+	Infof(format string, a ...any)
 	Warnf(format string, a ...any)
 	Errorf(format string, a ...any)
 	Run()
@@ -118,7 +118,7 @@ func (n *notifier) push(msg *message) {
 	n.messages = append(n.messages, msg)
 }
 
-func (n *notifier) Successf(format string, a ...any) {
+func (n *notifier) Infof(format string, a ...any) {
 	n.push(&message{level: successLvl, message: fmt.Sprintf(format, a...)})
 }
 
