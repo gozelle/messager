@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 	"time"
-	
+
 	"github.com/gozelle/logging"
 )
 
@@ -85,11 +85,11 @@ func (n *notifier) flush() {
 			emoj = "✅"
 			sc++
 		case warnLvl:
-			emoj = "⚠️"
+			emoj = "🟡"
 			wc++
 		case errorLvl:
 			emoj = "❌"
-			sc++
+			ec++
 		}
 		_, _ = buf.WriteString(fmt.Sprintf("%s %s  \n", emoj, v.message))
 	}
@@ -98,7 +98,7 @@ func (n *notifier) flush() {
 		title += fmt.Sprintf("✅ %d ", sc)
 	}
 	if wc > 0 {
-		title += fmt.Sprintf("⚠️ %d ", wc)
+		title += fmt.Sprintf("🟡 %d ", wc)
 	}
 	if ec > 0 {
 		title += fmt.Sprintf("❌ %d ", ec)
