@@ -84,7 +84,7 @@ func (p *Robot) Push(ctx context.Context, title, msg string) (err error) {
 	if err != nil {
 		return
 	}
-	fmt.Println(resp.String())
+	
 	code, err := v.Get("code").Int64()
 	if err != nil {
 		return
